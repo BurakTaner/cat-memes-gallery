@@ -1,0 +1,12 @@
+section.gallery-sec {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-content: center;
+  width: 100%;
+  border:1px solid black;
+  margin-top: 70px;
+  height: fit-content;
+  grid-gap: 50px;
+  padding: 20px;
+}
